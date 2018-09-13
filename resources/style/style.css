@@ -1,5 +1,14 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#ctn-main{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .background-home{
-  background: url(../images/background-home.png);
+  background: url(../images/background-home.jpg);
   background-size: 100%;
   height: 100vh;
 }
