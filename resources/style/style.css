@@ -33,7 +33,7 @@ body {
 
 /* ------ style Login.html ---------     */
 .ctn-login {
-  background: #2c2f36b5;
+  background: #444c5f;
   border-radius: 30px;
   padding-bottom: 20px;
   width: 320px;
@@ -85,4 +85,7 @@ body {
 }
 
 
-/*# sourceMappingURL=style.css.map */
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
