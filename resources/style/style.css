@@ -89,3 +89,28 @@ body {
   background: transparent !important;
   border: none !important;
 }
+
+
+
+// ------ Nivel Educativo ------
+
+.btn-basica-primaria{
+  background: white; 
+  padding: 10px; 
+  border: 1px 
+  solid gray; 
+  margin-top: 35%;
+}
+.btn-basica-secundaria{
+  background: white; 
+  padding: 10px; 
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+.btn-media{
+  background: white;
+  padding: 10px; 
+  border: 1px solid gray; 
+  margin-top: 15px;
+}
+
