@@ -96,21 +96,29 @@ body {
 
 .btn-basica-primaria{
   background: white; 
-  padding: 10px; 
-  border: 1px 
-  solid gray; 
-  margin-top: 35%;
-}
-.btn-basica-secundaria{
-  background: white; 
-  padding: 10px; 
-  border: 1px solid gray;
-  margin-top: 15px;
-}
-.btn-media{
-  background: white;
+  color: black;
   padding: 10px; 
   border: 1px solid gray; 
-  margin-top: 15px;
+  margin-top: 35%;
 }
+.btn-lvl-educativo{
+  background: rgb(22,142, 202); 
+  border: 2px solid rgb(243, 172, 51);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px; 
+  margin-top: 15px;
+  width: 100%;
+}
+
+.masthead-basica{
+  position:relative;width:100%;
+  padding-top:150px;
+  padding-bottom:100px;
+  color:#fff;
+  background:url(../images/bg-pattern.png),#7b4397;
+  background:url(../images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+  background:url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430)}
 
