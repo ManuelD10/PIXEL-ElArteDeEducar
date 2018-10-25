@@ -8,11 +8,6 @@ body {
   padding-right: 0px;
 }
 
-.background-home {
-  background: url(../images/background-home.jpg);
-  background-size: 100%;
-  height: 100vh;
-}
 
 .btn-inicio {
   background-image: url(../images/btn-inicio.png);
@@ -38,7 +33,7 @@ body {
 
 /* ------ style Login.html ---------     */
 .ctn-login {
-  background: #2c2f36b5;
+  background: #444c5f;
   border-radius: 30px;
   padding-bottom: 20px;
   width: 320px;
@@ -90,4 +85,40 @@ body {
 }
 
 
-/*# sourceMappingURL=style.css.map */
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
+
+
+
+// ------ Nivel Educativo ------
+
+.btn-basica-primaria{
+  background: white; 
+  color: black;
+  padding: 10px; 
+  border: 1px solid gray; 
+  margin-top: 35%;
+}
+.btn-lvl-educativo{
+  background: rgb(22,142, 202); 
+  border: 2px solid rgb(243, 172, 51);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px; 
+  margin-top: 15px;
+  width: 100%;
+}
+
+.masthead-basica{
+  position:relative;width:100%;
+  padding-top:150px;
+  padding-bottom:100px;
+  color:#fff;
+  background:url(../images/bg-pattern.png),#7b4397;
+  background:url(../images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+  background:url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430)}
+
