@@ -95,22 +95,26 @@ body {
 // ------ Nivel Educativo ------
 
 .btn-basica-primaria{
-  background: white; 
+  background: white;
   color: black;
-  padding: 10px; 
-  border: 1px solid gray; 
+  padding: 10px;
+  border: 1px solid gray;
   margin-top: 35%;
 }
 .btn-lvl-educativo{
-  background: rgb(22,142, 202); 
+  background: rgb(22,142, 202);
   border: 2px solid rgb(243, 172, 51);
   border-radius: 8px;
   color: white;
   cursor: pointer;
   text-align: center;
-  padding: 10px; 
+  padding: 10px;
   margin-top: 15px;
   width: 100%;
+  transition: 1s;
+}
+.btn-lvl-educativo:hover{
+  background: rgb(16, 105, 150);
 }
 
 .masthead-basica{
@@ -121,4 +125,3 @@ body {
   background:url(../images/bg-pattern.png),#7b4397;
   background:url(../images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
   background:url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430)}
-
