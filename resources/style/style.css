@@ -92,7 +92,7 @@ body {
 
 
 
-// ------ Nivel Educativo ------
+/* ------ Nivel Educativo ------ */
 
 .btn-basica-primaria{
   background: white;
@@ -124,4 +124,361 @@ body {
   color:#fff;
   background:url(../images/bg-pattern.png),#7b4397;
   background:url(../images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
-  background:url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430)}
+  background:url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430)
+}
+
+/* ------Fin  Nivel Educativo ------ */
+
+/* ------  Secundaria ------ */
+
+.numero-primero{
+  background: #8617cb;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-primero{
+  background: #8617cb;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-segundo{
+  background: #e00000;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-segundo{
+  background: #e00000;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-tercero{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-tercero{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-cuarto{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-cuarto{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-quinto{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-quinto{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-sexto{
+  background: #8617cb;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-sexto{
+  background: #8617cb;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-septimo{
+  background: #e00000;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-septimo{
+  background: #e00000;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-octavo{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-octavo{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-noveno{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-noveno{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-decimo{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-decimo{
+  background: #0083e0;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+.numero-once{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-once{
+  background: #ff4600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+/* ------  Secundaria ------ */
+
+/* ------ Materias ------ */
+.icon-materia-ciencias-naturales{
+  background: #52a600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 67px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+}
+.txt-materia-ciencias-naturales{
+  background: #52a600;
+  border: 3px solid #ff8e00;
+  border-radius: 5px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 0%;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}

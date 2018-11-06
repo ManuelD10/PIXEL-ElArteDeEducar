@@ -31,10 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+              <a class="nav-link js-scroll-trigger" href="#">Cursos</a>
             </li>
           </ul>
         </div>
@@ -44,12 +41,61 @@
 
     <header class="masthead">
       <div class="container">
-        <div class="row" >
-          <div class="col-md" style="margin-top:150px;">
-            <img src="../resources/images/materias.png" width="85%;" alt="">
+        <div class="row" style="height: 100vh;" >
+
+          <div class="col-md align-self-center">
+            <div class="" id="ctnMenuLapiz">
+              <div class="borrador-lapiz" id="borradorLapiz">
+                <img src="../resources/images/borrador-lapiz.png" alt="">
+              </div>
+              <div class="" id="ctnPrimero">
+                <div class="numero-primero" onMouseOver="numeroPrimero();" onmouseout="cierreNumeroPrimero();" id="numeroPrimero">
+                  <div></div>
+                </div>
+                <div class="txt-primero" id="txtPrimero">
+                  <div>Ingles</div>
+                </div>
+              </div>
+              <div class="" id="ctnSegundo">
+                <div class="numero-segundo" onMouseOver="numeroSegundo();" onmouseout="cierreNumeroSegundo();" id="numeroSegundo">
+                  <div></div>
+                </div>
+                <div class="txt-segundo" id="txtSegundo">
+                  <div>Español</div>
+                </div>
+              </div>
+              <div class="" id="ctnTercero">
+                <div class="numero-tercero" onMouseOver="numeroTercero();" onmouseout="cierreNumeroTercero();" id="numeroTercero">
+                  <div></div>
+                </div>
+                <div class="txt-tercero" id="txtTercero">
+                  <div>Matematicas</div>
+                </div>
+              </div>
+              <div class="" id="ctnCuarto">
+                <div class="numero-cuarto" onMouseOver="numeroCuarto();" onmouseout="cierreNumeroCuarto();" id="numeroCuarto">
+                  <div></div>
+                </div>
+                <div class="txt-cuarto" id="txtCuarto">
+                  <div>Ciancias sociales</div>
+                </div>
+              </div>
+              <div class="" id="ctnQuinto">
+                <div class="icon-materia-ciencias-naturales" onMouseOver="numeroQuinto();" onmouseout="cierreNumeroQuinto();" id="numeroQuinto">
+                  <div></div>
+                </div>
+                <div class="txt-materia-ciencias-naturales" id="txtQuinto">
+                  <div>Ciencias naturales</div>
+                </div>
+              </div>
+              <div class="punta-lapiz" id="puntaLapiz">
+                <img src="../resources/images/punta-lapiz.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="col-md" style="margin-top:150px;">
-            <img src="../resources/images/img-secundaria.png" width="85%;" alt="">
+
+          <div class="col-md align-self-center" >
+            <img src="../resources/images/baseAstronauta" width="85%;" alt="">
           </div>
         </div>
       </div>
@@ -64,5 +110,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="../resources/js/nivelEducativo.js"></script>
   </body>
 </html>
